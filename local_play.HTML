@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<div id="container">
+	
+		<div id="header">
+			<h2>Welcome to OpenMaze!</h2>
+			<h3>An Open-Source maze generation and solving toy!</h3>
+			<p>please note that this project is still in active development!</p>
+		</div>
+		
+		<div id="control_panel">
+			<label for="quantity">Maze width (between 6 and 24):</label>
+			<input type="number" id="widthInput" name="widthInput" min="6" max="24">
+			<br>
+			
+			<label for="quantity">Maze height (between 6 and 24):</label>
+			<input type="number" id="heightInput" name="heightInput" min="6" max="24"> 
+			<br>
+			
+			<button id="genNewMapBtn">Generate new map</button>
+			<button id="solveMapBtn">Solve map</button>
+			<hr>
+		</div>
+		
+		<div id="gameField">
+			<table id="mazeGrid">
+				<tr>
+					<td>
+						TEST - row 1, col 1
+					</td>
+					<td>
+						TEST - row 1, col 2
+					</td>
+				</tr>
+				<tr>
+					<td>
+						TEST - row 2, col 1
+					</td>
+					<td>
+						TEST - row 2, col 2
+					</td>
+				</tr>
+			</table>
+		</div>
+	
+	</div>
+
+</body>
+</html>

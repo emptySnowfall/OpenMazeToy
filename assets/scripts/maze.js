@@ -118,8 +118,9 @@ class Row {
 	AND the "number of columns" is the width
 */
 class MazeMap {
-	constructor(width, height, solver) {
+	constructor(width, height, solver, mazeTableId) {
 		this._solver = solver;
+		this._mazeTableId = mazeTableId;
 		this._rows = new Row(width, height);
 	}
 }
