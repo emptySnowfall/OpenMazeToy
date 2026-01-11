@@ -3,9 +3,11 @@
 <head>
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 	<meta charset="utf-8">
+	<script src="assets/scripts/maze.js" type="module"></script>
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
 </head>
 <body>
 
@@ -28,6 +30,7 @@
 			
 			<button id="genNewMapBtn">Generate new map</button>
 			<button id="solveMapBtn">Solve map</button>
+			<button id="resetBtn">Reset</button>
 			<hr>
 		</div>
 		
@@ -53,6 +56,12 @@
 		</div>
 	
 	</div>
+	
+	<script type="module">
+		import { MazeMap } from './assets/scripts/maze.js';
+		let gameMaze = new MazeMap(6, 6, "NONE", "mazeGrid");
+		gameMaze.generateBlankMazeTable();
+	</script>
 
 </body>
 </html>

@@ -1,0 +1,21 @@
+{
+  "name": "openmazetoy",
+  "version": "1.0.0",
+  "description": "An open-source maze-based toy that runs in the browser. The application is capable of both generating random maps and displaying the path chosen by a recurrsive-backtracking algorithim which can solve any of the generated mazes. This project particularly demonstrates React and JavaScript knowledge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptySnowfall/OpenMazeToy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/emptySnowfall/OpenMazeToy/issues"
+  },
+  "homepage": "https://github.com/emptySnowfall/OpenMazeToy#readme"
+}
